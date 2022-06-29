@@ -14,10 +14,53 @@ const VideoContainer = styled.section`
     object-fit: cover;
   }
 `;
+const DarkOverLay = styled.div`
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.6)`};
+`;
+
+const Title = styled.div`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: ${(props) => props.theme.text};
+
+  h1{
+    font-family: 'Kaushan Script';
+    font-size:${(props) => props.theme.fontBig};
+    text-shadow: 1px 1px 1px ${(props) => props.theme.body}
+  }
+
+  h2{
+    padding-bottom: -100px;
+    font-family: 'Siren Stencil';
+    font-size:${(props) => props.theme.fontmd};
+    text-shadow: 1px 1px 1px ${(props) => props.theme.body}
+
+    text-transform: capitalize;
+
+  }
+`;
 
 const CoverVideo = () => {
   return (
     <VideoContainer>
+      <DarkOverLay />
+      <Title>{/* <h2> Inspire. Create. Innovate</h2> */}</Title>
       <video src={MainVideo} type="video/mp4" autoPlay muted />
     </VideoContainer>
   );
