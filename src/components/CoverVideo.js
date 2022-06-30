@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import MainVideo from "../assets/LosingControlLandingPage.mp4";
+import { motion } from "framer-motion";
+import Nav from "../components/nav/Nav";
 
 const VideoContainer = styled.section`
   width: 100%;
@@ -25,7 +27,7 @@ const DarkOverLay = styled.div`
   background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.6)`};
 `;
 
-const Title = styled.div`
+const Title = styled(motion.div)`
   position: absolute;
   top: 0;
   bottom: 0;
@@ -56,11 +58,36 @@ const Title = styled.div`
   }
 `;
 
+const container = {
+  hidden: {
+    opacity: 0,
+  },
+  visible: {
+    opacity: 1,
+    transition: {
+      duration: 2,
+      ease: "easeInOut",
+    },
+  },
+};
+
+const item = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+  },
+};
+
 const CoverVideo = () => {
   return (
     <VideoContainer>
+      {/* <Nav /> */}
       <DarkOverLay />
-      <Title>{/* <h2> Inspire. Create. Innovate</h2> */}</Title>
+      <Title variants={container} initial="hidden" animate="show">
+        {/* <h2> Inspire. Create. Innovate</h2> */}
+      </Title>
       <video src={MainVideo} type="video/mp4" autoPlay muted />
     </VideoContainer>
   );

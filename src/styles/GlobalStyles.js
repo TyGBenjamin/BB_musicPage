@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import "@fontsource/kaushan-script";
 import "@fontsource/sirin-stencil";
+import "../components/Logo.css";
 
 const GlobalStyles = createGlobalStyle`
 *,*::before,*::after{
@@ -9,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
 }
 
 body{
-    font-family:"Siren Stencil
+    font-family:"Righteous"
     over-flow-x:hidden;
 }
 h1,h2,h3,h4,h5,h6{
@@ -18,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 a{
-    color:inherit;
+    // color:inherit;
     text-decoration: none;
 }
 `;

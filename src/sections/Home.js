@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import CoverVideo from "../components/CoverVideo";
 import Logo from "../components/Logo";
+import NavBar from "../components/NavBar";
+import Nav from "../components/nav/Nav";
 
 const Section = styled.section`
   position: relative;
@@ -12,9 +14,11 @@ const Section = styled.section`
 function Home() {
   return (
     <Section>
+      <Nav />
+
       <CoverVideo />
       <Logo />
-      <h1>NavBar</h1>
+      <NavBar />
     </Section>
   );
 }
