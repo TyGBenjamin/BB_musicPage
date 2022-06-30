@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const NavContainer = styled.div`
   width: 100vw;
   z-index: 6;
   position: absolute;
-  top: 0;
+  top: ${(props) => (props.click ? "0" : "-5rem")};
 
   display: flex;
   justify-content: center;
@@ -19,6 +19,10 @@ const MenuBtn = styled.li`
   height: 2.5rem;
 
   clip-path: polygon(0 0, 100% 1%, 72% 100%, 28% 100%);
+  position: absolute;
+  top:100%;
+  left:50%;
+  transform: translateX(-50%);
 
   display: flex;
   justify-content: center;
@@ -47,18 +51,24 @@ const MenuItems = styled.ul`
   padding: 0 10rem;
 `;
 
+const MenuItem = styled.li`
+  text-transform: uppercase;
+  color: ivory;
+`;
+
 const NavBar = () => {
+  const [click, setClick] = useState(false);
   return (
-    <NavContainer>
+    <NavContainer click={click}>
       <MenuItems>
-        <MenuBtn>Menu</MenuBtn>
-        <li>Home</li>
-        <li>Music</li>
-        <li>Events</li>
-        <li>News</li>
-        <li>Shop</li>
-        <li>About</li>
-        <li>Contact</li>
+        <MenuBtn onClick={() => setClick(!click)}>Menu</MenuBtn>
+        <MenuItem>Home</MenuItem>
+        <MenuItem>Music</MenuItem>
+        <MenuItem>Events</MenuItem>
+        <MenuItem>News</MenuItem>
+        <MenuItem>Shop</MenuItem>
+        <MenuItem>About</MenuItem>
+        <MenuItem>Contact</MenuItem>
       </MenuItems>
     </NavContainer>
   );
