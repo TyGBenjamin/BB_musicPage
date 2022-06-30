@@ -31,10 +31,35 @@ const MenuBtn = styled.li`
   cursor: pointer;
 `;
 
+const MenuItems = styled.ul`
+  position: relative;
+  height: ${(props) => props.theme.navHeight};
+  background-color: black;
+  color: ivory;
+  list-style: none;
+  font-family: "Bangers";
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  padding: 0 10rem;
+`;
+
 const NavBar = () => {
   return (
     <NavContainer>
-      <MenuBtn>Menu</MenuBtn>
+      <MenuItems>
+        <MenuBtn>Menu</MenuBtn>
+        <li>Home</li>
+        <li>Music</li>
+        <li>Events</li>
+        <li>News</li>
+        <li>Shop</li>
+        <li>About</li>
+        <li>Contact</li>
+      </MenuItems>
     </NavContainer>
   );
 };
