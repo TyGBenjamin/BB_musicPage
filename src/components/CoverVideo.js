@@ -83,8 +83,8 @@ const item = {
 const CoverVideo = () => {
   return (
     <VideoContainer>
-      {/* <Nav /> */}
-      <DarkOverLay />
+      <Nav />
+      {/* <DarkOverLay /> */}
       <Title variants={container} initial="hidden" animate="show">
         {/* <h2> Inspire. Create. Innovate</h2> */}
       </Title>

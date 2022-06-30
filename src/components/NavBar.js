@@ -12,15 +12,23 @@ const NavContainer = styled.div`
   align-items: center;
 `;
 const MenuBtn = styled.li`
-  background-color: ${(props) => `rgba(${props.theme.textRgba}, 0.7`};
+  background-color: ivory;
   list-style-type: style none;
   color: ${(props) => props.theme.body};
   width: 15rem;
   height: 2.5rem;
 
+  clip-path: polygon(0 0, 100% 1%, 72% 100%, 28% 100%);
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-size: ${(props) => props.theme.fontmd}
+  font-weight:600;
+  text-transform: uppercase;
+  font-family:"Righteous";
+  cursor: pointer;
 `;
 
 const NavBar = () => {

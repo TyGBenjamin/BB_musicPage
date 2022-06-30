@@ -14,10 +14,9 @@ const Section = styled.section`
 function Home() {
   return (
     <Section>
-      <Nav />
-
       <CoverVideo />
       <Logo />
+      {/* <Nav /> */}
       <NavBar />
     </Section>
   );

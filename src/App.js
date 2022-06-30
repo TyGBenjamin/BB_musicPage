@@ -32,7 +32,7 @@ function App() {
         >
           <AnimatePresence>
             <main data-scroll-container ref={containerRef}>
-              App
+              {/* App */}
               <Home />
             </main>
           </AnimatePresence>

@@ -70,7 +70,7 @@ const textVariants = {
 
 const Text = styled(motion.span)`
   font-size: ${(props) => props.theme.fontlg};
-  color: " ${(props) => props.theme.text}";
+  color: white;
   padding-bottom: 0.5 rem;
   font-family: "Righteous";
 `;
