@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BB_musicPage/static/css/main.e85ec6fa.css",
-    "main.js": "/BB_musicPage/static/js/main.ff0c4dc0.js",
+    "main.css": "/BB_musicPage/static/css/main.04457a6a.css",
+    "main.js": "/BB_musicPage/static/js/main.0ed7e7a4.js",
     "static/media/LosingControlLandingPage.mp4": "/BB_musicPage/static/media/LosingControlLandingPage.904f4e0d535caab6149d.mp4",
     "static/media/kaushan-script-all-400-normal.woff": "/BB_musicPage/static/media/kaushan-script-all-400-normal.ba623d1ca520a2a711d2.woff",
     "static/media/sirin-stencil-all-400-normal.woff": "/BB_musicPage/static/media/sirin-stencil-all-400-normal.e1b8add18154b5d65682.woff",
@@ -9,11 +9,11 @@
     "static/media/sirin-stencil-latin-400-normal.woff2": "/BB_musicPage/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
     "static/media/kaushan-script-latin-ext-400-normal.woff2": "/BB_musicPage/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
     "index.html": "/BB_musicPage/index.html",
-    "main.e85ec6fa.css.map": "/BB_musicPage/static/css/main.e85ec6fa.css.map",
-    "main.ff0c4dc0.js.map": "/BB_musicPage/static/js/main.ff0c4dc0.js.map"
+    "main.04457a6a.css.map": "/BB_musicPage/static/css/main.04457a6a.css.map",
+    "main.0ed7e7a4.js.map": "/BB_musicPage/static/js/main.0ed7e7a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e85ec6fa.css",
-    "static/js/main.ff0c4dc0.js"
+    "static/css/main.04457a6a.css",
+    "static/js/main.0ed7e7a4.js"
   ]
 }
