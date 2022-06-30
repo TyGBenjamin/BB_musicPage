@@ -1,94 +1,92 @@
-# 🔥Build a Stunning Fashion Studio Website with React JS [ Locomotive Scroll + GSAP + Framer Motion ]
+# BasementBangers
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/wibe-studio-starter-files?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/wibe-studio-starter-files?style=social&logo=KashFlow&&label=Forks)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+## Description
 
-This repository contains starter code for Fashion Studio Website in ReactJS. <br />
+## Table of Contents
 
-View Demo👇: <br />
-https://wibe-studio.netlify.app/ <br />
+- [Installation](#installation)
+- [Usage](#usage)
+- [Acceptance Criteria](#criteria)
+- [Preview](#Preview)
+- [Credits](#credits)
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Ra1Fsa9YJCk <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Ra1Fsa9YJCk?style=social)](https://youtu.be/Ra1Fsa9YJCk)<br />
+## Installation
 
+Initially you musty have Node installed
+Also have to initiliaze the npm command to install the required dependencies which can
+be found in the package.json file
+After installing these, javascript has to be run from terminal through node in order to launch to the server, which would
+then initiate the page.
+Ultimately though, the application will be deployed for public use. This would allow for easier access and a more user-friendly interface.
 
-### Images of The Fashion Studio Website:
-![HOME](https://github.com/codebucks27/wibe-studio-starter-files/blob/main/Wibe-Home-Desktop.png)
-![ABOUT](https://github.com/codebucks27/wibe-studio-starter-files/blob/main/Wibe-About-Desktop.png)
-![HOME](https://github.com/codebucks27/wibe-studio-starter-files/blob/main/Wibe-Home-Moblie.png)
-![ABOUT](https://github.com/codebucks27/wibe-studio-starter-files/blob/main/Wibe-About-Mobile.png)
+## Usage
 
+## Preview
 
-### Resources Used in This Project
+A video for previewing the usage of this application can be found in the following link
+[Click Here for Video Walkthrough]()
 
-Fonts: https://fontsource.org/ <br />
+The Live Demo can be viewed here [LIVE DEMO](https://tygbenjamin.github.io/BB_musicPage/)
 
-### External Libraries used in this project: 
+![Screenshot of Application]()
 
-[styled-components](https://styled-components.com/docs/advanced) <br />
-[GSAP](https://greensock.com/gsap/) <br />
-[Framer-mMtion](https://www.framer.com/motion/) <br />
-[React-Locomotive-Scroll](https://www.npmjs.com/package/react-locomotive-scroll) <br />
-[Locomotive-Scroll](https://www.npmjs.com/package/locomotive-scroll) <br />
+![Screenshot of Application]())
 
-### All The Resources Used in This Website Are from👇:
+![Mobile Phone Responsive Design]()
 
-Walking Girl Video:<br />
-Video by cottonbro from Pexels [https://www.pexels.com/@cottonbro]<br />
+## User Story
 
-Images:<br />
+## Criteria
 
-Ring: Photo by Arif Syuhada from Pexels<br />
-https://www.pexels.com/@arifsyd15<br />
+GIVEN a single-page application portfolio for a web developer
+WHEN I load the portfolio
+THEN I am presented with a page containing a header, a section for content, and a footer
+WHEN I view the header
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+WHEN I view the navigation titles
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+WHEN I click on a navigation title
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+WHEN I load the portfolio the first time
+THEN the About Me title and section are selected by default
+WHEN I am presented with the About Me section
+THEN I see a recent photo or avatar of the developer and a short bio about them
+WHEN I am presented with the Portfolio section
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+WHEN I am presented with the Contact section
+THEN I see a contact form with fields for a name, an email address, and a message
+WHEN I move my cursor out of one of the form fields without entering text
+THEN I receive a notification that this field is required
+WHEN I enter text into the email address field
+THEN I receive a notification if I have entered an invalid email address
+WHEN I am presented with the Resume section
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+WHEN I view the footer
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-Rings: Photo by cottonbro from Pexels<br />
-https://www.pexels.com/@cottonbro<br />
+## Credits
 
-Earings: Photo by say straight from Pexels<br />
-https://www.pexels.com/@say-straight-1400349<br />
+Tyler Gandy
 
-White Tee:Photo by cottonbro from Pexels<br />
-https://www.pexels.com/@cottonbro<br />
+## License
 
-black t-shirt girl: Photo by Lena Hsvl from Pexels<br />
-https://www.pexels.com/@lenaneva<br />
+MIT
 
-Red girl: Photo by Yaroslava Borz from Pexels<br />
-https://www.pexels.com/@yaroslava-borz-126286496<br />
+## Badges
 
-Ethnic Wear: Photo by Artem Beliaikin from Pexels<br />
-https://www.pexels.com/@belart84<br />
+![this was a badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
-Suit: Photo by Chloe from Pexels<br />
-https://www.pexels.com/@chloekalaartist<br />
+## Features
 
-cap male: Photo by cottonbro from Pexels<br />
-https://www.pexels.com/@cottonbro<br />
+- Node Js
+- React
+- Bootstrap
+- JSX
+- Swiper
+- EmailJS
 
-Watches: Photo by Mister Mister from Pexels<br />
-https://www.pexels.com/@bemistermister<br />
+## Questions
 
-Denim: Photo by Denis Zagorodniuc from Pexels<br />
-https://www.pexels.com/@imdennyz<br />
+Tyler Gandy's [Git Hub](www.github.com/TyGBenjamin)
 
-Jacket: Photo by Simon Robben from Pexels<br />
-https://www.pexels.com/@simon-robben-55958<br />
-
-Yellow T-shirt:Photo by RAUL REYNOSO from Pexels<br />
-https://www.pexels.com/@raulkingr<br />
-
-Yellow Dress: Photo by Godisable Jacob from Pexels<br />
-https://www.pexels.com/@godisable-jacob-226636<br />
-
-
-
-### Famous Quotes Used:
-"Fashion is the armour to survive the reality of everyday life."<br />
--- bill cunningham
-
-"One is never over-dressed or under-dressed with a Little Black Dress." —Karl Lagerfeld<br />
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+© 2022 Confidential and Proprietary. All Rights Reserved
