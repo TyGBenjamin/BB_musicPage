@@ -21,29 +21,29 @@ const Nav = () => {
       </a>
       <a
         href="#about"
-        onClick={() => setActiveNav("services")}
-        className={activeNav === "services" ? "active" : ""}
+        onClick={() => setActiveNav("about")}
+        className={activeNav === "about" ? "active" : ""}
       >
         <BsInfoCircleFill className="heyIcon" />
       </a>
       <a
         href="#music"
-        onClick={() => setActiveNav("about")}
-        className={activeNav === "about" ? "active" : ""}
+        onClick={() => setActiveNav("music")}
+        className={activeNav === "music" ? "active" : ""}
       >
         <SiApplemusic className="heyIcon" />
       </a>
       <a
         href="#events"
-        onClick={() => setActiveNav("experience")}
-        className={activeNav === "experience" ? "active" : ""}
+        onClick={() => setActiveNav("events")}
+        className={activeNav === "events" ? "active" : ""}
       >
         <SiGooglenews className="heyIcon" />
       </a>
       <a
         href="#shop"
-        onClick={() => setActiveNav("services")}
-        className={activeNav === "services" ? "active" : ""}
+        onClick={() => setActiveNav("shop")}
+        className={activeNav === "shop" ? "active" : ""}
       >
         <GiHoodie className="heyIcon" />
       </a>
