@@ -22,17 +22,17 @@ a{
     align-items:flex-end;
 }
 
-svg{
-    width:4rem;
-    height:auto;
-    overflow: visible;
-    stroke-linejoin: round;
-    stroke-linecap: round;
-    g{
-        path{
-            stroke: ${(props) => props.theme.text};
-        }
-    }
+// svg{
+//     width:4rem;
+//     height:auto;
+//     overflow: visible;
+//     stroke-linejoin: round;
+//     stroke-linecap: round;
+//     g{
+//         path{
+//             stroke: ${(props) => props.theme.text};
+//         }
+//     }
     
 }`;
 

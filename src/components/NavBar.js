@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import "../index.css";
 
 const NavContainer = styled(motion.div)`
   width: 100vw;
@@ -58,6 +59,22 @@ const MenuItems = styled(motion.ul)`
 
   width: 100%;
   padding: 0 10rem;
+
+  @media screen and (max-width: 1024px) {
+    .container {
+      width: var(--container-width-md);
+      font-size: 0.7 rem;
+    }
+  }
+
+  /* >>>>>>>>>>>>> MEDIA (small screen) QUERIES <<<<<<<<<<<<<<< */
+
+  @media screen and (max-width: 600px) {
+    .container {
+      width: var(--container-width-sm);
+      font-size: 0.4 rem;
+    }
+  }
 `;
 
 const MenuItem = styled(motion.li)`
