@@ -93,30 +93,32 @@ const NavBar = () => {
         >
           Music
         </MenuItem>
-        <MenuItem
-          whileHover={{ scale: 1.1, y: -5 }}
-          whileTap={{ scale: 0.9, y: 0 }}
-        >
-          Events
-        </MenuItem>
-        <MenuItem
-          whileHover={{ scale: 1.1, y: -5 }}
-          whileTap={{ scale: 0.9, y: 0 }}
-        >
-          News
-        </MenuItem>
-        <MenuItem
-          whileHover={{ scale: 1.1, y: -5 }}
-          whileTap={{ scale: 0.9, y: 0 }}
-        >
-          Shop
-        </MenuItem>
+
         <MenuItem
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
         >
           About
         </MenuItem>
+        <MenuItem
+          whileHover={{ scale: 1.1, y: -5 }}
+          whileTap={{ scale: 0.9, y: 0 }}
+        >
+          Events
+        </MenuItem>
+        {/* <MenuItem
+          whileHover={{ scale: 1.1, y: -5 }}
+          whileTap={{ scale: 0.9, y: 0 }}
+        >
+          News
+        </MenuItem> */}
+        <MenuItem
+          whileHover={{ scale: 1.1, y: -5 }}
+          whileTap={{ scale: 0.9, y: 0 }}
+        >
+          Shop
+        </MenuItem>
+
         <MenuItem
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
