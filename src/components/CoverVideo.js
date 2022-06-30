@@ -30,7 +30,7 @@ const DarkOverLay = styled.div`
 const Title = styled(motion.div)`
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: -8;
   left: 0;
   right: 0;
   z-index: 5;
@@ -83,7 +83,7 @@ const item = {
 const CoverVideo = () => {
   return (
     <VideoContainer>
-      <Nav />
+      {/* <Nav /> */}
       {/* <DarkOverLay /> */}
       <Title variants={container} initial="hidden" animate="show">
         {/* <h2> Inspire. Create. Innovate</h2> */}

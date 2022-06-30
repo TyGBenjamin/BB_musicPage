@@ -19,18 +19,10 @@
   }
 }
 
-section {
-  /* margin-top: 6rem; */
-}
-
 /* >>>>>>>>>>>>> MEDIA (small screen) QUERIES <<<<<<<<<<<<<<< */
 
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
-}
-
-section > h2 {
-  /* margin-top: 2rem; */
 }

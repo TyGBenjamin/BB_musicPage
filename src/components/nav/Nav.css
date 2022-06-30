@@ -1,7 +1,7 @@
 .heyIcon:hover {
   font-size: xx-large;
-  color: pink;
-  background: rgba(0, 0, 0, 0.4);
+  color: rgb(10, 10, 10);
+  background: rgba(250, 3, 3, 0.4);
   border-radius: 30%;
   cursor: pointer;
 }
@@ -17,7 +17,7 @@ nav {
   transform: translateX(-50%);
   bottom: 2rem;
   display: flex;
-  gap: 0.8rem;
+  gap: 2rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
   color: white;
@@ -33,6 +33,6 @@ nav a {
 }
 
 nav a.active {
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: white;
+  color: black;
 }
