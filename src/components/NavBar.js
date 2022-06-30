@@ -16,7 +16,7 @@ const MenuBtn = styled.li`
   list-style-type: style none;
   color: ${(props) => props.theme.body};
   width: 15rem;
-  height: 2.5rem;
+  height: 1.5rem;
 
   clip-path: polygon(0 0, 100% 1%, 72% 100%, 28% 100%);
   position: absolute;
@@ -33,6 +33,12 @@ const MenuBtn = styled.li`
   text-transform: uppercase;
   font-family:"Righteous";
   cursor: pointer;
+
+  visible: {
+    transition: {
+      delay: 2.5,
+    },
+  },
 `;
 
 const MenuItems = styled.ul`
