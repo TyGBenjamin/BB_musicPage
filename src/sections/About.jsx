@@ -13,7 +13,7 @@ const Section = styled.section`
 
 const Title = styled.h1`
 font-size: ${(props) => props.theme.fontBig}
-font-family: "Splash;
+font-family: "Splash";
 font-weight:300;
 
 position: absolute;
@@ -32,7 +32,7 @@ const Right = styled.div`
 
 function About() {
   return (
-    <Section>
+    <Section id="about">
       <Title
         data-scroll
         data-scroll-speed="-2"

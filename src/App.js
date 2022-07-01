@@ -7,6 +7,7 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 import Home from "./sections/Home";
 import Music from "./sections/Music";
 import About from "./sections/About";
+import Footer from "./components/footer/Footer";
 
 import { AnimatePresence } from "framer-motion";
 
@@ -39,6 +40,7 @@ function App() {
               <Home />
               <Music />
               <About />
+              <Footer />
             </main>
           </AnimatePresence>
         </LocomotiveScrollProvider>

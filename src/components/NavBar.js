@@ -121,7 +121,7 @@ const NavBar = () => {
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
         >
-          Events
+          Awards
         </MenuItem>
         {/* <MenuItem
           whileHover={{ scale: 1.1, y: -5 }}
@@ -132,6 +132,8 @@ const NavBar = () => {
         <MenuItem
           whileHover={{ scale: 1.1, y: -5 }}
           whileTap={{ scale: 0.9, y: 0 }}
+          onClick={() => window.open("https://bbcellar.com/")}
+          target="blank"
         >
           Shop
         </MenuItem>

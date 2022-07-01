@@ -97,7 +97,7 @@ const Logo = () => {
           </g>
         </svg>
         <Text variants={textVariants} initial="hidden" animate="visible">
-          Basement Bangers
+          <span>FREE EVERYTHING</span>
         </Text>
       </Link>
     </Container>

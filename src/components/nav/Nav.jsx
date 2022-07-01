@@ -42,7 +42,8 @@ const Nav = () => {
       </a>
       <a
         href="#shop"
-        onClick={() => setActiveNav("shop")}
+        onClick={() => window.open("https://bbcellar.com/")}
+        target="blank"
         className={activeNav === "shop" ? "active" : ""}
       >
         <GiHoodie className="heyIcon" />

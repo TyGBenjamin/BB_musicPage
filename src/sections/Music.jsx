@@ -8,7 +8,7 @@ const Section = styled.section`
 `;
 
 function Music() {
-  return <Section>Music</Section>;
+  return <Section id="music">Music</Section>;
 }
 
 export default Music;
