@@ -4,6 +4,7 @@ import { ImYoutube2 } from "react-icons/im";
 import { FiInstagram } from "react-icons/fi";
 import { RiSoundcloudFill } from "react-icons/ri";
 import { SiApplemusic } from "react-icons/si";
+import { ImSpotify } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -55,6 +56,12 @@ const Footer = () => {
           target="blank"
         >
           <SiApplemusic />
+        </a>
+        <a
+          href="https://music.apple.com/us/artist/basement-bangers/1622378502"
+          target="blank"
+        >
+          <ImSpotify />
         </a>
       </div>
       <div className="footer__copyright">

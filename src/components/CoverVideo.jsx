@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import MainVideo from "../assets/LosingControlLandingPage.mp4";
 import { motion } from "framer-motion";
-import Nav from "../components/nav/Nav";
+import Nav from "./nav/Nav";
 
 const VideoContainer = styled.section`
   width: 100%;
@@ -82,7 +82,7 @@ const item = {
 
 const CoverVideo = () => {
   return (
-    <VideoContainer className="#">
+    <VideoContainer>
       {/* <Nav /> */}
       {/* <DarkOverLay /> */}
       <Title variants={container} initial="hidden" animate="show">

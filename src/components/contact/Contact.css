@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+HK:wght@400;700&family=Oi&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monofett&family=Splash&display=swap");
+
+.contact {
+  background-color: black;
+}
+
+.container.contact__container {
+  width: 100%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  display: grid;
+  align-items: center;
+  /* justify-content: center; */
+  grid-template-columns: 30% 78%;
+  background-color: black;
+  gap: 12%;
+}
+
+.contact__options {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact__option {
+  background: white;
+  color: black;
+  font-family: "Righteous";
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.contact__option:hover {
+  background: rgb(252, 73, 73);
+  color: black;
+  border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  width: 95%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: white;
+  border: 2px solid black;
+  resize: none;
+}
+
+/* >>>>>>>>>>>>> MEDIA (medium screen) QUERIES <<<<<<<<<<<<<<< */
+
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* >>>>>>>>>>>>> MEDIA (small screen) QUERIES <<<<<<<<<<<<<<< */
+
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+}

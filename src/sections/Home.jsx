@@ -14,12 +14,14 @@ const Section = styled.section`
 
 function Home() {
   return (
-    <Section>
-      <CoverVideo />
-      <Logo />
-      <Nav />
-      <NavBar />
-    </Section>
+    <section id="#">
+      <Section>
+        <CoverVideo />
+        <Logo />
+        {/* <Nav /> */}
+        <NavBar />
+      </Section>
+    </section>
   );
 }
 

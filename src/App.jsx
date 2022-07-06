@@ -8,6 +8,8 @@ import Home from "./sections/Home";
 import Music from "./sections/Music";
 import About from "./sections/About";
 import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact.jsx";
+import Nav from "./components/nav/Nav.jsx";
 
 import { AnimatePresence } from "framer-motion";
 
@@ -38,8 +40,10 @@ function App() {
             <main data-scroll-container ref={containerRef}>
               {/* App */}
               <Home />
+              <Nav />
               <Music />
               <About />
+              <Contact />
               <Footer />
             </main>
           </AnimatePresence>
