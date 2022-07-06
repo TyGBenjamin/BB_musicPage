@@ -18,7 +18,7 @@ function Home() {
       <Section>
         <CoverVideo />
         <Logo />
-        {/* <Nav /> */}
+        <Nav />
         <NavBar />
       </Section>
     </section>
