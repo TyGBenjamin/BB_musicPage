@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import Nav from "../components/nav/Nav";
+import "../components/nav/Nav.css";
+
 import "../index.css";
 
 const Section = styled.section`
   position: relative;
   min-height: 100vh;
-  width: 8-vw;
+  width: 80vw;
   overflow: hidden;
 
   display: flex;
@@ -30,18 +33,19 @@ const Right = styled.div`
 
 function About() {
   return (
-    <Section>
-      <section id="about">
-        <Title
-          data-scroll
-          data-scroll-speed="-2"
-          data-scroll-direction="horizontal"
-        >
-          About Us
-        </Title>
-        <Left>Text</Left>
-        <Right>Images</Right>
-      </section>
+    <Section id="about">
+      {/* <section id="about"> */}
+      <Title
+        data-scroll
+        data-scroll-speed="-2"
+        data-scroll-direction="horizontal"
+      >
+        About Us
+      </Title>
+      <Left>Text</Left>
+      <Right>Images</Right>
+      <Nav />
+      {/* </section> */}
     </Section>
   );
 }

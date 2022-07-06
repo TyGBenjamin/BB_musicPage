@@ -40,7 +40,6 @@ function App() {
             <main data-scroll-container ref={containerRef}>
               {/* App */}
               <Home />
-              <Nav />
               <Music />
               <About />
               <Contact />
