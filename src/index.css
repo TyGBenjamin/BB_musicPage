@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+HK:wght@400;700&family=Oi&family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
 
+body {
+  /* font-family: "Noto Sans", sans-serif;
+    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7; */
+  background-image: url(.//assets/Images/background_BB.jpg);
+}
+
 :root {
   --color-bg: rgb(122, 170, 248);
   --color-bg-variant: #2c2c6c;

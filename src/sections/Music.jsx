@@ -7,6 +7,7 @@ const Section = styled.section`
   position: relative;
   min-height: 100vh;
   overflow: hidden;
+  background-image: url(../src/assets/background_BB.jpg);
 `;
 
 function Music() {

@@ -10,6 +10,7 @@ const Section = styled.section`
   min-height: 100vh;
   width: 100vw;
   overflow: hidden;
+
   background-color: black;
 
   display: flex;
