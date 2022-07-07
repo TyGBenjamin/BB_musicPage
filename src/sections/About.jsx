@@ -75,29 +75,31 @@ const Right = styled.div`
 
 function About() {
   return (
-    <Section id="#fixed-target">
-      <Title
-        data-scroll
-        data-scroll-speed="-2"
-        data-scroll-direction="horizontal"
-      >
-        About Us
-      </Title>
-      <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        We are the innovation for a broken system, cooperatively and
-        persistently working to reinvent the music industry as we know it.
-        <br />
-        <br /> We are more than dedicated to helping build a better future for
-        us all to thrive and prosper. #freeeverything
-      </Left>
-      <Right>
-        <img src={photo1} alt="About Us" />
-        <img src={photo2} className="small-img-1" alt="About Us" />
-        <img src={photo3} className="small-img-2" alt="About Us" />
-        <img src={photo4} className="small-img-3" alt="About Us" />
-      </Right>
-      <Nav />
-    </Section>
+    <section id="#about">
+      <Section id="#fixed-target">
+        <Title
+          data-scroll
+          data-scroll-speed="-2"
+          data-scroll-direction="horizontal"
+        >
+          About Us
+        </Title>
+        <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
+          We are the innovation for a broken system, cooperatively and
+          persistently working to reinvent the music industry as we know it.
+          <br />
+          <br /> We are more than dedicated to helping build a better future for
+          us all to thrive and prosper. #freeeverything
+        </Left>
+        <Right>
+          <img src={photo1} alt="About Us" />
+          <img src={photo2} className="small-img-1" alt="About Us" />
+          <img src={photo3} className="small-img-2" alt="About Us" />
+          <img src={photo4} className="small-img-3" alt="About Us" />
+        </Right>
+        <Nav />
+      </Section>
+    </section>
   );
 }
 
