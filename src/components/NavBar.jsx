@@ -63,8 +63,9 @@ const MenuItems = styled(motion.ul)`
   @media screen and (max-width: 1024px) {
     .container {
       width: var(--container-width-md);
-      font-size: 0.7 rem;
     }
+    font-size: 0.3 rem;
+    display: column;
   }
 
   /* >>>>>>>>>>>>> MEDIA (small screen) QUERIES <<<<<<<<<<<<<<< */
@@ -72,8 +73,9 @@ const MenuItems = styled(motion.ul)`
   @media screen and (max-width: 600px) {
     .container {
       width: var(--container-width-sm);
-      font-size: 0.4 rem;
     }
+    font-size: 0.2 rem;
+    display: column;
   }
 `;
 

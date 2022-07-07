@@ -2,6 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import Nav from "../components/nav/Nav";
 import "../components/nav/Nav.css";
+import photo1 from "../assets/Images/About2Copy.jpg";
+import photo2 from "../assets/Images/whiteT2Copy.jpg";
+import photo3 from "../assets/Images/groupCopy.jpg";
 
 import "../index.css";
 
@@ -11,7 +14,7 @@ const Section = styled.section`
   width: 100vw;
   overflow: hidden;
 
-  background-color: black;
+  background-color: transparent;
 
   display: flex;
   margin: 0 auto;
@@ -42,6 +45,12 @@ const Left = styled.div`
 `;
 const Right = styled.div`
   width: 50%;
+  positipon: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 `;
 
 function About() {
@@ -62,7 +71,11 @@ function About() {
         <br /> We are more than dedicated to helping build a better future for
         us all to thrive and prosper. #freeeverything
       </Left>
-      <Right>Images</Right>
+      <Right>
+        <img src={photo1} alt="About Us" />
+        <img src={photo2} className="small-img-1" alt="About Us" />
+        <img src={photo3} className="small-img-2" alt="About Us" />{" "}
+      </Right>
       <Nav />
       {/* </section> */}
     </Section>
