@@ -7,6 +7,8 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 import Home from "./sections/Home";
 import Music from "./sections/Music";
 import About from "./sections/About";
+import Shop from "./sections/Shop";
+
 import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact.jsx";
 import Nav from "./components/nav/Nav.jsx";
@@ -42,6 +44,7 @@ function App() {
               <Home />
               <Music />
               <About />
+              <Shop />
               <Contact />
               <Footer />
             </main>

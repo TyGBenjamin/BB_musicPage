@@ -30,12 +30,8 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>
-        {" "}
-        JOIN THE TEAM: SIGN UP WITH EMAIL AND WE WILL CONTACT YOU THROUGH EMAIL
-        TO GET YOUR MUSIC SUBMISSION
-      </h5>
-      <h2> Contact Us</h2>
+      <h5></h5>
+      <h2></h2>
       <div className="container contact__container ">
         <div className="contact__options">
           <article className="contact__option">

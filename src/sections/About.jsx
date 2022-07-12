@@ -13,7 +13,6 @@ const Section = styled.section`
   position: relative;
   min-height: 200vh;
   width: 100vw;
-  overflow: hidden;
 
   background-color: transparent;
 
@@ -36,9 +35,11 @@ const Title = styled.h1`
 const Left = styled.div`
   width: 50%;
   font-size: 2rem;
-  font-family: "righteous";
+  font-family: "Julius Sans One";
   color: white;
-  font-weight: 280;
+  font-weight: 350;
+  background-color: rgba(49, 49, 49, 0.382);
+
   position: relative;
   z-index: 5;
   margin-top: 20%;
@@ -75,7 +76,7 @@ const Right = styled.div`
 
 function About() {
   return (
-    <section id="#about">
+    <section id="about">
       <Section id="#fixed-target">
         <Title
           data-scroll
@@ -94,10 +95,22 @@ function About() {
         <Right>
           <img src={photo1} alt="About Us" />
           <img src={photo2} className="small-img-1" alt="About Us" />
-          <img src={photo3} className="small-img-2" alt="About Us" />
-          <img src={photo4} className="small-img-3" alt="About Us" />
+          <img
+            data-scroll
+            data-scroll-speed="5"
+            src={photo3}
+            className="small-img-2"
+            alt="About Us"
+          />
+          <img
+            data-scroll
+            data-scroll-speed="-2"
+            src={photo4}
+            className="small-img-3"
+            alt="About Us"
+          />
         </Right>
-        <Nav />
+        {/* <Nav /> */}
       </Section>
     </section>
   );
