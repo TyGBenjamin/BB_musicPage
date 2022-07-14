@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import "../index.css";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import { useRef, useLayoutEffect } from "react";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -72,8 +75,39 @@ const Right = styled.div`
 `;
 
 const Shop = () => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  const ref = useRef(null);
+  const horizontalRef = useRef(null);
+
+  useLayoutEffect(() => {
+    let element = ref.current;
+    let scrollingElement = horizontalRef.current;
+    let pinWrapWidth = scrollingElement.offsetWidth;
+    let t1 = gsap.timeline();
+    setTimeout(() => {
+      t1.to(element, {
+        scrollTrigger: {
+          trigger: element,
+          start: "top top",
+          end: pinWrapWidth,
+          scroller: ".App", // locomotive element
+          scrub: true,
+          pin: true,
+          markers: true,
+        },
+        // increase scrolling height of element needed fo esthetic
+        height: `${scrollingElement.scrollWidth}px`,
+        ease: "none",
+      });
+
+      ScrollTrigger.refresh();
+    }, 1000);
+    return () => {};
+  }, []);
+
   return (
-    <Section>
+    <Section ref={ref}>
       <Title
         data-scroll
         data-scroll-speed="-1"
@@ -97,7 +131,7 @@ const Shop = () => {
           feel free to reach out to us using our contact page below. Thanks!{" "}
         </p>
       </Left>
-      <Right>
+      <Right ref={horizontalRef}>
         <h1>img</h1>
         <h1>img</h1>
         <h1>img</h1>
