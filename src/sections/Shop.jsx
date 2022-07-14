@@ -20,6 +20,7 @@ const Title = styled.h1`
   font-size: 7rem;
   font-family: "Splash";
   font-weight: 300;
+  text-shadow: 1px 1px 1px ${(props) => props.theme.body};
   color: white;
 
   position: absolute;
@@ -52,6 +53,24 @@ const Left = styled.div`
   }
 `;
 
+const Right = styled.div`
+  position: absolute;
+  left: 35%;
+  padding-left: 35%;
+  min-height: 100vh;
+  width: 65%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: white;
+
+  h1 {
+    width: 5rem;
+    margin: 0 2rem;
+  }
+`;
+
 const Shop = () => {
   return (
     <Section>
@@ -78,6 +97,16 @@ const Shop = () => {
           feel free to reach out to us using our contact page below. Thanks!{" "}
         </p>
       </Left>
+      <Right>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+        <h1>img</h1>
+      </Right>
     </Section>
   );
 };
