@@ -133,7 +133,8 @@ const Shop = () => {
           our overall goal and vision. All of our products are created using the
           best quality material available to us. Just like the music we produce,
           we put our best efforts into producing clothing of high quality that,
-          not only is iconic and appealing, but will last for years to come.
+          not only is iconic and appealing, but will also last for years to
+          come.
           <br />
           <br />
           As mentioned, we are currently expanding our collections and styles
