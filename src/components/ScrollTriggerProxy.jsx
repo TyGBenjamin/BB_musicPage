@@ -1,13 +1,12 @@
 // to automate this feature we need locomotive scroll, we have to yse scroller proxy from gsap
 
-import React from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import { useLocomotiveScroll } from "react-locomotive-scroll";
+// import { useLocomotiveScroll } from "react-locomotive-scroll";
 import { useEffect } from "react";
 
-// import { useLocomotiveScroll } from "react-locomotive-scroll/module/useLocomotiveScroll.hook";
-// import ScrollTrigger from 'gsap-trial/src/ScrollTrigger';
+import { useLocomotiveScroll } from "react-locomotive-scroll/module/useLocomotiveScroll.hook";
+// import ScrollTrigger from "gsap-trial/src/ScrollTrigger";
 
 const ScrollTriggerProxy = () => {
   //instance of locomotive scroll
@@ -17,7 +16,7 @@ const ScrollTriggerProxy = () => {
   useEffect(() => {
     if (scroll) {
       const element = scroll?.el; // locomotive scrolling element, in this case its app (main)
-      scroll.om("scroll", ScrollTrigger.update); // update Scroll Trigger on scroll
+      scroll.on("scroll", ScrollTrigger.update); // update Scroll Trigger on scroll
 
       // use Scroller Proxy
 

@@ -61,7 +61,7 @@ const Right = styled.div`
   left: 35%;
   padding-left: 35%;
   min-height: 100vh;
-  width: 65%;
+  //   width: 65%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -89,6 +89,21 @@ const Shop = () => {
       t1.to(element, {
         scrollTrigger: {
           trigger: element,
+          start: "top",
+          end: "bottom",
+          scroller: ".App", // locomotive element
+          scrub: true,
+          pin: true,
+          markers: true,
+        },
+        // increase scrolling height of element needed fo esthetic
+        height: 200,
+        ease: "none",
+      });
+
+      t1.to(scrollingElement, {
+        scrollTrigger: {
+          trigger: scrollingElement,
           start: "top top",
           end: pinWrapWidth,
           scroller: ".App", // locomotive element
@@ -97,7 +112,7 @@ const Shop = () => {
           markers: true,
         },
         // increase scrolling height of element needed fo esthetic
-        height: `${scrollingElement.scrollWidth}px`,
+        x: -pinWrapWidth,
         ease: "none",
       });
 
@@ -107,12 +122,8 @@ const Shop = () => {
   }, []);
 
   return (
-    <Section ref={ref}>
-      <Title
-        data-scroll
-        data-scroll-speed="-1"
-        data-scroll-direction="horizontal"
-      >
+    <Section>
+      <Title data-scroll data-scroll-speed="-1">
         {" "}
         Shop
       </Title>
@@ -132,14 +143,16 @@ const Shop = () => {
         </p>
       </Left>
       <Right ref={horizontalRef}>
-        <h1>img</h1>
-        <h1>img</h1>
-        <h1>img</h1>
-        <h1>img</h1>
-        <h1>img</h1>
-        <h1>img</h1>
-        <h1>img</h1>
-        <h1>img</h1>
+        <div class="wrapper"></div>
+        <h1 class="item">img</h1>
+        <h1 class="item">img</h1>
+        <h1 class="item">img</h1>
+        <h1 class="item">img</h1>
+        <h1 class="item">img</h1>
+        <h1 class="item">img</h1>
+        <h1 class="item">img</h1>
+        <h1 class="item">img</h1>
+        <h1 class="item">img</h1>
       </Right>
     </Section>
   );
