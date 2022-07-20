@@ -97,14 +97,14 @@ const Shop = () => {
           markers: true,
         },
         // increase scrolling height of element needed fo esthetic
-        height: 200,
+        height: `${scrollingElement.scrollWidth}px`,
         ease: "none",
       });
 
       t1.to(scrollingElement, {
         scrollTrigger: {
           trigger: scrollingElement,
-          start: "top top",
+          start: "top",
           end: pinWrapWidth,
           scroller: ".App", // locomotive element
           scrub: true,

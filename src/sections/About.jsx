@@ -34,7 +34,7 @@ const Title = styled.h1`
 `;
 const Left = styled.div`
   width: 50%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Julius Sans One";
   color: white;
   font-weight: 350;
