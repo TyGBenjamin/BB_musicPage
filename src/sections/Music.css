@@ -3,24 +3,33 @@
   height: 300px;
 }
 
-.client__avatar {
-  width: 1rem;
+.music__logo {
+  width: 50%;
+  height: 42%;
   aspect-ratio: 1/1;
   overflow: hidden;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: 0 auto 1rem;
-  border: 0.4rem solid var(--color-primary-variant);
+  /* border: 0.4rem solid var(--color-primary-variant); */
+}
+.music__logo:hover {
+  cursor: pointer;
 }
 
 .musicBox {
-  background-color: rgba(49, 49, 49, 0.382);
+  /* background-color: rgba(31, 30, 30, 0.382); */
+  background-image: url("../assets/Images/scrollerBackbw3.jpg");
+
   width: 100%;
 }
 
 .testimonyArticle {
-  background: black;
+  /* background: black; */
+  /* background-image: url("../assets/Images/whiteT.jpg"); */
+  background-color: rgba(30, 30, 30, 0.382);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  padding: 2rem;
+  padding-top: 1rem;
   border-radius: 2rem;
   user-select: none;
   width: 100%;
@@ -34,6 +43,13 @@
   margin: 0.8rem auto 0;
 }
 
+.client__name {
+  color: white;
+  font-weight: 900;
+  display: block;
+  width: 100%;
+  margin: 0.8rem auto 0;
+}
 .swiper-pagination-clickable .swiper-pagination-bullet {
   background: white;
 }

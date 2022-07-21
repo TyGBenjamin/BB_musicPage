@@ -53,6 +53,7 @@
   background: rgb(252, 73, 73);
   color: black;
   border-color: var(--color-primary-variant);
+  cursor: pointer;
 }
 
 .contact__option-icon {
