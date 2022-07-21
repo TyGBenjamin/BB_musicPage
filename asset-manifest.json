@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BB_musicPage/static/css/main.b4eb523f.css",
-    "main.js": "/BB_musicPage/static/js/main.c2bc38c5.js",
+    "main.css": "/BB_musicPage/static/css/main.73964f9e.css",
+    "main.js": "/BB_musicPage/static/js/main.5cf2c2b4.js",
     "static/media/LosingControlLandingPage.mp4": "/BB_musicPage/static/media/LosingControlLandingPage.904f4e0d535caab6149d.mp4",
     "static/media/background_BB.jpg": "/BB_musicPage/static/media/background_BB.70e406c3c01025813147.jpg",
     "static/media/About2Copy.jpg": "/BB_musicPage/static/media/About2Copy.59b250c20967e3ec0a06.jpg",
@@ -11,15 +11,19 @@
     "static/media/studioCopy.jpg": "/BB_musicPage/static/media/studioCopy.88e7aab98687355fcd89.jpg",
     "static/media/sirin-stencil-all-400-normal.woff": "/BB_musicPage/static/media/sirin-stencil-all-400-normal.e1b8add18154b5d65682.woff",
     "static/media/kaushan-script-latin-400-normal.woff2": "/BB_musicPage/static/media/kaushan-script-latin-400-normal.2855d49bba6b2cb7bec5.woff2",
+    "static/media/scrollerBackbw3.jpg": "/BB_musicPage/static/media/scrollerBackbw3.661ac069004b26bb319c.jpg",
     "static/media/sirin-stencil-latin-400-normal.woff2": "/BB_musicPage/static/media/sirin-stencil-latin-400-normal.f668f96beabdc683277b.woff2",
     "static/media/kaushan-script-latin-ext-400-normal.woff2": "/BB_musicPage/static/media/kaushan-script-latin-ext-400-normal.5a05e21384fe4b1b9db7.woff2",
+    "static/media/spotifyBlackMd.jpg": "/BB_musicPage/static/media/spotifyBlackMd.d0ed147746523b9d5082.jpg",
     "static/media/whiteT4Copy.jpg": "/BB_musicPage/static/media/whiteT4Copy.91c9aefa382ea5a0df9d.jpg",
+    "static/media/Soundcloud14.jpg": "/BB_musicPage/static/media/Soundcloud14.48844f7e9f95efda52c0.jpg",
+    "static/media/blackAppleMd.png": "/BB_musicPage/static/media/blackAppleMd.58febe62015e33d9d030.png",
     "index.html": "/BB_musicPage/index.html",
-    "main.b4eb523f.css.map": "/BB_musicPage/static/css/main.b4eb523f.css.map",
-    "main.c2bc38c5.js.map": "/BB_musicPage/static/js/main.c2bc38c5.js.map"
+    "main.73964f9e.css.map": "/BB_musicPage/static/css/main.73964f9e.css.map",
+    "main.5cf2c2b4.js.map": "/BB_musicPage/static/js/main.5cf2c2b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4eb523f.css",
-    "static/js/main.c2bc38c5.js"
+    "static/css/main.73964f9e.css",
+    "static/js/main.5cf2c2b4.js"
   ]
 }
