@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BB_musicPage/static/css/main.b4eb523f.css",
-    "main.js": "/BB_musicPage/static/js/main.3e23b099.js",
+    "main.js": "/BB_musicPage/static/js/main.c2bc38c5.js",
     "static/media/LosingControlLandingPage.mp4": "/BB_musicPage/static/media/LosingControlLandingPage.904f4e0d535caab6149d.mp4",
     "static/media/background_BB.jpg": "/BB_musicPage/static/media/background_BB.70e406c3c01025813147.jpg",
     "static/media/About2Copy.jpg": "/BB_musicPage/static/media/About2Copy.59b250c20967e3ec0a06.jpg",
@@ -16,10 +16,10 @@
     "static/media/whiteT4Copy.jpg": "/BB_musicPage/static/media/whiteT4Copy.91c9aefa382ea5a0df9d.jpg",
     "index.html": "/BB_musicPage/index.html",
     "main.b4eb523f.css.map": "/BB_musicPage/static/css/main.b4eb523f.css.map",
-    "main.3e23b099.js.map": "/BB_musicPage/static/js/main.3e23b099.js.map"
+    "main.c2bc38c5.js.map": "/BB_musicPage/static/js/main.c2bc38c5.js.map"
   },
   "entrypoints": [
     "static/css/main.b4eb523f.css",
-    "static/js/main.3e23b099.js"
+    "static/js/main.c2bc38c5.js"
   ]
 }
