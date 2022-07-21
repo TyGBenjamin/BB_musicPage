@@ -68,6 +68,18 @@ const Music = () => {
           })}
         </Swiper>
       </div>
+      <div>
+        <iframe
+          title="BBMusic"
+          style={{ "border-radius": 12 }}
+          src="https://open.spotify.com/embed/artist/0SN1va4GmDZQr0fELEdfZ2?utm_source=generator"
+          width="100%"
+          height="380"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        ></iframe>
+      </div>
     </Section>
   );
 };
