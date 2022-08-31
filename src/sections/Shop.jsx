@@ -4,6 +4,18 @@ import "../index.css";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useRef, useLayoutEffect } from "react";
+import { Pagination } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import Shop1 from "../assets/Images/whiteT2Copy.jpg";
+import Logo2 from "../assets/Images/spotifyBlackMd.jpg";
+import Logo3 from "../assets/Images/Soundcloud14.jpg";
+
+import img1 from "../assets/Images/10.webp";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -60,9 +72,9 @@ const Right = styled.div`
   position: absolute;
   left: 35%;
   padding-left: 35%;
-  min-height: 100vh;
-  //   width: 65%;
-  display: flex;
+  min-height: auto;
+  width: 100%;
+  display: grid;
   justify-content: flex-start;
   align-items: center;
 
@@ -73,6 +85,30 @@ const Right = styled.div`
     margin: 0 2rem;
   }
 `;
+
+const Item = styled.div`
+display: inline-block;
+width:20rem;
+margin-bottom 5rem;
+img{
+  width:100%;
+  height:auto;
+  cursor:pointer;
+}
+h1{
+  font-weight:500;
+  text-align: center;
+  cursor: pointer;
+}
+`;
+const Product = ({ img, title = "" }) => {
+  return (
+    <Item>
+      <img src={img} alt={title}></img>
+      <h1> {title}</h1>
+    </Item>
+  );
+};
 
 const Shop = () => {
   gsap.registerPlugin(ScrollTrigger);
@@ -85,6 +121,7 @@ const Shop = () => {
     let scrollingElement = horizontalRef.current;
     let pinWrapWidth = scrollingElement.offsetWidth;
     let t1 = gsap.timeline();
+
     setTimeout(() => {
       t1.to(element, {
         scrollTrigger: {
@@ -101,6 +138,7 @@ const Shop = () => {
         ease: "none",
       });
 
+      // horizontal Scrolling
       t1.to(scrollingElement, {
         scrollTrigger: {
           trigger: scrollingElement,
@@ -144,16 +182,17 @@ const Shop = () => {
         </p>
       </Left>
       <Right ref={horizontalRef}>
-        <div class="wrapper"></div>
-        <h1 class="item">img</h1>
-        <h1 class="item">img</h1>
-        <h1 class="item">img</h1>
-        <h1 class="item">img</h1>
-        <h1 class="item">img</h1>
-        <h1 class="item">img</h1>
-        <h1 class="item">img</h1>
-        <h1 class="item">img</h1>
-        <h1 class="item">img</h1>
+        {/* <div class="wrapper"></div> */}
+        {/* <img src={Shop1} alt="hey" class="item">
+          {" "}
+        </img> */}
+        <Product img={img1} title="xyz" />
+        <Product img={img1} title="xyz" />
+        <Product img={img1} title="xyz" />
+        <Product img={img1} title="xyz" />
+        <Product img={img1} title="xyz" />
+        <Product img={img1} title="xyz" />
+        <Product img={img1} title="xyz" />
       </Right>
     </Section>
   );
