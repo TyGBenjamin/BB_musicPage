@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/BB_musicPage/static/css/main.73964f9e.css",
-    "main.js": "/BB_musicPage/static/js/main.720a4d3d.js",
+    "main.css": "/BB_musicPage/static/css/main.b9f90c68.css",
+    "main.js": "/BB_musicPage/static/js/main.ed08fa28.js",
     "static/media/10.webp": "/BB_musicPage/static/media/10.9d55ebaf49e2a1566285.webp",
-    "static/media/LosingControlLandingPage.mp4": "/BB_musicPage/static/media/LosingControlLandingPage.904f4e0d535caab6149d.mp4",
+    "static/media/IntroPlayBack.mp4": "/BB_musicPage/static/media/IntroPlayBack.c5d62434f6795b62c9b7.mp4",
+    "static/media/11.webp": "/BB_musicPage/static/media/11.e32866d809309bfd5ae2.webp",
     "static/media/background_BB.jpg": "/BB_musicPage/static/media/background_BB.70e406c3c01025813147.jpg",
     "static/media/About2Copy.jpg": "/BB_musicPage/static/media/About2Copy.59b250c20967e3ec0a06.jpg",
     "static/media/groupCopy.jpg": "/BB_musicPage/static/media/groupCopy.70d9ee354ffb06dad2fd.jpg",
@@ -21,11 +22,11 @@
     "static/media/Soundcloud14.jpg": "/BB_musicPage/static/media/Soundcloud14.48844f7e9f95efda52c0.jpg",
     "static/media/blackAppleMd.png": "/BB_musicPage/static/media/blackAppleMd.58febe62015e33d9d030.png",
     "index.html": "/BB_musicPage/index.html",
-    "main.73964f9e.css.map": "/BB_musicPage/static/css/main.73964f9e.css.map",
-    "main.720a4d3d.js.map": "/BB_musicPage/static/js/main.720a4d3d.js.map"
+    "main.b9f90c68.css.map": "/BB_musicPage/static/css/main.b9f90c68.css.map",
+    "main.ed08fa28.js.map": "/BB_musicPage/static/js/main.ed08fa28.js.map"
   },
   "entrypoints": [
-    "static/css/main.73964f9e.css",
-    "static/js/main.720a4d3d.js"
+    "static/css/main.b9f90c68.css",
+    "static/js/main.ed08fa28.js"
   ]
 }
